@@ -1,0 +1,101 @@
+Presentation: 
+
+Demo: 2-5 mins 
+
+Talk about development process:
+
+Phase 1: 
+	- Brainstormed ideas: Fantasy league website, RPG game, Overhead 2D shooter
+	- How we decided 
+
+Phase 2: 
+	- We divided out the work
+	- How we divided out the work 
+	- What struggles did we have during this phase
+		- Tried to do too much
+		- Implementation was rough up until the last day 
+		- Had a meeting then fixed bugs as a group
+		
+Describe product during demo:
+Game name: Zombie Town 
+We decided to create a 2D overhead shooter
+The objective of the game is to survive and get the highest score
+- Score is obtained by killing the zombies
+- In the game, score is the currency. So in order to buy ammo or a weapon, you spend score 
+
+Go through each view and describe what is does
+
+Go into the GameState and demo:
+	- Movement
+	- Collision
+	- Shooting/Reloading
+	- Damage to zombie/player
+	- In-game store
+	- Controls
+
+Process:
+Team introduction: 
+	Matt:
+	- Created base template of the game and the UI 
+	- Game logic 
+
+	Asmir:
+	- Game logic 
+	- Collisions
+
+	Arjun:
+	- Databases
+	- Floater 
+
+	Andrew:
+	- Artwork
+	- Floater
+
+	Brandon:
+	- Floater 
+	- Managed documents, PivotalTracker and made sure we met due dates 
+	
+Mention some of the highlights of your processes:
+	- Used photoshop for some of our artwork
+	- Github for version control
+	- Discord as our medium for our meetings
+	
+Difficulties:
+	- Learning how to use new libaries
+		- We could have made some game using JPanel but that would not have looked as nice as what we have produced
+	- Not utilizing the branching features on Github
+		- Since we did not utilize this, we had to have constant communication whenever 
+		someone was updating/pushing changes to the master branch
+	- Not having clear goals for our product
+		- Most of the features were implemented the day before deadlines because of this 
+	- Deciding to swtich ideas multiple times
+		- Minor set back since we had ideas on how to develop and build the product but we switched, causing 
+		us to start back at square 1
+	- Building our map as a TileMap instead of a TileBaseMap
+		- Collisions in our current design is by pixel instead of by tile (Scaling our game is very inefficient)
+	
+Standards/Conventions/Techniques:
+	- We would have meetings constantly; whether they would be in-person or over Discord
+	- When we were all coding, we would all be on Discord telling eachother what is being done
+	what needs to be done, any errors holding them back, members having a go at debugging their code, etc. 
+	
+Software Architecture:
+	- MVC
+	Model: UI
+	Views: States for each view; GameState, LoginState, etc...
+	Controller: Main class
+	
+Technologies: 
+	Java: the language we chose to code our game in 
+		- Java libraries: 
+			- Slick2D: For drawing 
+			- LWJGL (Light Weight Java Game Library): Slick2D requires this library
+			- MySQL: For our SQL DB connections and all operations
+			- JOGG/JORBIS: For sound and music
+			
+	MySQL: A free online database host that holds all of the stats of our application
+	
+	Maven: IDK why we used Maven
+	
+
+	
